@@ -1,0 +1,267 @@
+
+////////////////////////////////////////////////
+/*Layout de la seccion RESUMEN*/
+////////////////////////////////////////////////
+
+
+.dashboard-panel-resumen {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: 1fr;
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+    grid-template-columns: repeat(4, 1fr);
+	
+  }
+
+  @include mediaFrom($breakLg) {
+    grid-template-rows: auto;
+  }
+
+}
+
+////////////////////////////////////////////////
+/*Layout de la seccion MAPAS*/
+////////////////////////////////////////////////
+
+
+.dashboard-panel-mapas {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: 1fr;
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+    grid-template-columns: repeat(5, 1fr);
+	
+  }
+
+  @include mediaFrom($breakLg) {
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+}
+
+////////////////////////////////////////////////
+/*Layout de la seccion OTROS GRAFICOS*/
+////////////////////////////////////////////////
+
+
+.dashboard-panel-tendencias {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: 1fr;
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+    grid-template-columns: repeat(5, 1fr);
+	
+  }
+
+  @include mediaFrom($breakLg) {
+    grid-template-rows: auto;
+  }
+
+}
+
+////////////////////////////////////////////////
+/*Layout de la seccion FORECASTING*/
+////////////////////////////////////////////////
+
+.dashboard-panel-forecast {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+    grid-template-columns: repeat(1, 1fr);
+	
+  }
+
+  @include mediaFrom($breakLg) {
+    grid-template-rows: auto;
+	//grid-template-rows: repeat(2, 1fr);
+  }
+
+}
+
+////////////////////////////////////////////////
+/*Layout de la seccion DATASETS*/
+////////////////////////////////////////////////
+
+
+.dashboard-panel-datasets {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: 1fr;
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+    grid-template-columns: 1fr;
+	
+  }
+
+  @include mediaFrom($breakLg) {
+	grid-template-rows: 1fr;
+  }
+
+}
+
+////////////////////////////////////////////////
+/*Layout de la seccion ACERCA DE...*/
+////////////////////////////////////////////////
+
+
+.dashboard-panel-info {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: 1fr;
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+    grid-template-columns: repeat(3, 1fr);
+	
+  }
+
+  @include mediaFrom($breakLg) {
+	grid-template-rows: repeat(2, 1fr);
+  }
+
+}
+
+
+////////////////////////////////////////////////
+
+.dashboard-panels2 {
+  display: grid;
+  gap: rem(20px);
+  grid-template-columns: 1fr;
+  width: 100%;
+ 
+  @include mediaFrom($breakSm) {
+	grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+	
+  }
+
+  @include mediaFrom($breakLg) {
+	grid-template-rows: auto auto auto 1fr;
+  }
+
+}
+
+.panel {
+  border-radius: $filletSmall;
+  box-shadow: $boxShadowMain;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+
+.panel-chart2 {
+  position: relative;
+  width: 100%;
+  text-align: right;
+
+  .panel-header {
+    position: absolute;
+    width: 100%;
+
+    label {
+      @include visuallyHidden;
+    }
+
+    .shiny-input-container {
+      width: 100%;
+    }
+  }
+
+  .breakdown-header {
+    @include chart-header2;
+	height: 26px;
+  }
+  
+  .btn {
+	margin-left: auto; 
+	margin-right: 0;
+	float: right;
+	font-size: 14px;
+	padding: 0px 3px 0px 3px;
+	display: inline-block;
+	border: none;
+	background: none;
+	border-radius: 0px;
+  }
+}
+
+.panel-chart2 .breakdown-header > .item {
+	display:inline-block;
+}
+
+.item.tituloC {
+	left: 10px;
+	position: absolute;
+	margin: 5px;
+}
+
+
+
+.panel-kpi {
+  overflow: hidden;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 1px 5px 20px rgba(94,104,121,0.3);
+  background-color: $gris04; 
+
+  .metric {
+    font-size: rem(24px);
+    font-weight: 500;
+    grid-area: metric;
+    line-height: 1;
+
+    @include mediaFrom($breakLg) {
+      font-size: rem(32px);
+    }
+  }
+ 
+  .breakdown-header {
+    padding: rem(7px) rem(13px);
+	line-height: 12px;
+	font-weight: 700;
+  }
+ 
+  
+  .shiny-html-output {
+    display: grid;
+    grid-template-areas:
+        "metric icon"
+        "percent percent";
+    padding: 10px 10px 0px 10px;
+  }
+  
+  
+.icon {
+	/* align-items: center; */
+	display: flex;
+	/* justify-content: center; */
+	fill: #B3B8BA;
+	grid-area: icon;
+	height: 48px;
+	pointer-events: none;
+	width: 48px;
+	display: -webkit-box;
+	margin-left: auto;
+	/* line-height: 20px; */
+	/* vertical-align: top; */
+	top: -13px;
+	position: relative;
+}
+
+
+}
+
+
+
+
+
+

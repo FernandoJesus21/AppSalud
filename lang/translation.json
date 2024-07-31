@@ -1,0 +1,750 @@
+{
+    "languages": ["xx", "en", "es"],
+    "translation": [
+        {
+			"xx": "1",
+            "en": "January",
+            "es": "Enero"
+        },
+        {
+			"xx": "2",
+            "en": "February",
+            "es": "Febrero"
+        },
+        {
+			"xx": "3",
+            "en": "March",
+            "es": "Marzo"
+        },
+        {
+			"xx": "4",
+            "en": "April",
+            "es": "Abril"
+        },
+        {
+			"xx": "5",
+            "en": "May",
+            "es": "Mayo"
+        },
+        {
+			"xx": "6",
+            "en": "June",
+            "es": "Junio"
+        },
+        {
+			"xx": "7",
+            "en": "July",
+            "es": "Julio"
+        },
+        {
+			"xx": "8",
+            "en": "August",
+            "es": "Agosto"
+        },
+        {
+			"xx": "9",
+            "en": "September",
+            "es": "Septiembre"
+        },
+        {
+			"xx": "10",
+            "en": "October",
+            "es": "Octubre"
+        },
+        {
+			"xx": "11",
+            "en": "November",
+            "es": "Noviembre"
+        },
+        {
+			"xx": "12",
+            "en": "December",
+            "es": "Diciembre"
+        },
+		{
+			"xx": "13",
+            "en": "[All]",
+            "es": "[Todos]"
+        },
+        {
+			"xx": "14",
+            "en": "[All]",
+            "es": "[Todas]"
+        },
+		{
+			"xx": "20",
+            "en": "Dimensions:",
+            "es": "Dimensiones:"
+        },
+		{
+			"xx": "21",
+            "en": "Year",
+            "es": "Año"
+        },
+        {
+			"xx": "22",
+            "en": "Month",
+            "es": "Mes"
+        },
+        {
+			"xx": "23",
+            "en": "Province",
+            "es": "Provincia"
+        },
+		{
+			"xx": "24",
+            "en": "age",
+            "es": "edad"
+        },
+        {
+			"xx": "25",
+            "en": "date",
+            "es": "fecha"
+        },
+		{
+			"xx": "26",
+            "en": "First",
+            "es": "Primera"
+        },
+        {
+			"xx": "27",
+            "en": "Second",
+            "es": "Segunda"
+        },
+        {
+			"xx": "28",
+            "en": "Extra",
+            "es": "Adicional"
+        },
+        {
+			"xx": "29",
+            "en": "Booster",
+            "es": "Refuerzo"
+        },
+		{
+			"xx": "30",
+            "en": "Unique",
+            "es": "Única"
+        },
+		{
+			"xx": "31",
+            "en": "Algorithm",
+            "es": "Algoritmo"
+        },
+		{
+			"xx": "32",
+            "en": "Range",
+            "es": "Rango"
+        },
+		{
+			"xx": "33",
+            "en": "Measure:",
+            "es": "Medida:"
+        },
+		{
+			"xx": "50",
+            "en": "Measures:",
+            "es": "Medidas:"
+        },
+		{
+			"xx": "51",
+            "en": "Confirmed cases",
+            "es": "Casos confirmados"
+        },
+        {
+			"xx": "52",
+            "en": "Deceased cases",
+            "es": "Casos fallecidos"
+        },
+        {
+			"xx": "53",
+            "en": "Applied vaccines",
+            "es": "Vacunas aplicadas"
+        },
+        {
+			"xx": "54",
+            "en": "Vacc. with completed scheme",
+            "es": "Casos Vac. esq. completo"
+        },
+		{
+			"xx": "55",
+            "en": "Mortality",
+            "es": "Mortalidad"
+        },
+        {
+			"xx": "56",
+            "en": "Conf. per 100k hab.",
+            "es": "Conf. por 100k hab."
+        },
+        {
+			"xx": "57",
+            "en": "Dec. per 100k hab.",
+            "es": "Fal. por 100k hab."
+        },
+		{
+			"xx": "58",
+            "en": "Confirmed cases (SUM)",
+            "es": "Confirmados (AC)"
+        },
+        {
+			"xx": "59",
+            "en": "Deceased cases (SUM)",
+            "es": "Fallecidos (AC)"
+        },
+        {
+			"xx": "60",
+            "en": "Applied vaccines (SUM)",
+            "es": "Vacunados (AC)"
+        },
+        {
+			"xx": "61",
+            "en": "V / D rate",
+            "es": "Relación V / F"
+        },
+		{
+			"xx": "80",
+            "en": "Whole country: ",
+            "es": "Total país: "
+        },
+		{
+			"xx": "81",
+            "en": "See as: ",
+            "es": "Ver como: "
+        },
+		{
+			"xx": "82",
+            "en": "Vacc. amount:",
+            "es": "Cant. Vacunas:"
+        },
+		{
+			"xx": "83",
+            "en": "No data",
+            "es": "No hay datos"
+        },
+		{
+			"xx": "84",
+            "en": "Value:",
+            "es": "Valor:"
+        },
+		{
+			"xx": "85",
+            "en": "Other",
+            "es": "Otros"
+        },
+		{
+			"xx": "86",
+            "en": "Close",
+            "es": "Cerrar"
+        },
+        {
+			"xx": "100",
+            "en": "Summary",
+            "es": "Resumen"
+        },
+		{
+			"xx": "101",
+            "en": "COVID-19 Dashboard",
+            "es": "Tablero COVID-19"
+        },
+		{
+			"xx": "111",
+            "en": "Confirmed cases:",
+            "es": "Casos confirmados:"
+        },
+        {
+			"xx": "112",
+            "en": "Deceased cases:",
+            "es": "Casos fallecidos:"
+        },
+        {
+			"xx": "113",
+            "en": "Applied vaccines:",
+            "es": "Vacunas aplicadas:"
+        },
+        {
+			"xx": "114",
+            "en": "Vacc. with completed schema:",
+            "es": "Vac. con esquema completo:"
+        },
+		{
+			"xx": "121",
+            "en": "Province rank by confirmed cases",
+            "es": "TOP provincias según: Casos confirmados"
+        },
+        {
+			"xx": "122",
+            "en": "Province rank by deceased cases",
+            "es": "TOP provincias según: Casos fallecidos"
+        },
+        {
+			"xx": "123",
+            "en": "Province rank by applied vaccines",
+            "es": "TOP provincias según: Vacunas aplicadas"
+        },
+        {
+			"xx": "131",
+            "en": "Department rank by confirmed cases",
+            "es": "TOP departamentos según: Casos confirmados"
+        },
+        {
+			"xx": "132",
+            "en": "Department rank by deceased cases",
+            "es": "TOP departamentos según: Casos fallecidos"
+        },
+        {
+			"xx": "133",
+            "en": "Department rank by applied vaccines",
+            "es": "TOP departamentos según: Vacunas aplicadas"
+        },
+        {
+			"xx": "141",
+            "en": "Evolution of confirmed cases",
+            "es": "Evolución de casos confirmados"
+        },
+        {
+			"xx": "142",
+            "en": "Evolution of confirmed cases (summarised)",
+            "es": "Evolución de casos confirmados (acumulado)"
+        },
+        {
+			"xx": "143",
+            "en": "Evolution of deceased cases",
+            "es": "Evolución de casos fallecidos"
+        },
+        {
+			"xx": "144",
+            "en": "Evolution of deceased cases (summarised)",
+            "es": "Evolución de casos fallecidos (acumulado)"
+        },
+        {
+			"xx": "145",
+            "en": "Evolution of applied vaccines",
+            "es": "Evolución de la vacunación"
+        },
+        {
+			"xx": "146",
+            "en": "Evolution of applied vaccines (summarised)",
+            "es": "Evolución de la vacunación (acumulado)"
+        },
+        {
+			"xx": "200",
+            "en": "Maps",
+            "es": "Mapas"
+        },
+		{
+			"xx": "201",
+            "en": "Maps",
+            "es": "Mapas"
+        },
+		{
+			"xx": "211",
+            "en": "Confirmed cases heatmap by province",
+            "es": "Mapa de calor de confirmados por provincia"
+        },
+        {
+			"xx": "212",
+            "en": "Deceased cases heatmap by province",
+            "es": "Mapa de calor de fallecimientos por provincia"
+        },
+        {
+			"xx": "213",
+            "en": "Vaccination heatmap by province",
+            "es": "Mapa de calor de la vacunación por provincia"
+        },
+        {
+			"xx": "214",
+            "en": "Mortality rate by province",
+            "es": "Ratio de mortalidad por provincia"
+        },
+		{
+			"xx": "215",
+            "en": "Confirmed per 100.000 hab. by province",
+            "es": "Confirmados por 100.000 hab. según provincia"
+        },
+		{
+			"xx": "216",
+            "en": "Deceased per 100.000 hab. by province",
+            "es": "Fallecimientos por 100.000 hab. por provincia"
+        },
+		{
+			"xx": "221",
+            "en": "Pareto chart by province",
+            "es": "Gráfico pareto según provincia"
+        },
+        {
+			"xx": "231",
+            "en": "Confirmed cases by age range",
+            "es": "Casos confirmados por rango etario"
+        },
+        {
+			"xx": "232",
+            "en": "Deceased cases by age range",
+            "es": "Fallecimientos por rango etario"
+        },
+        {
+			"xx": "233",
+            "en": "Vaccine applications by age range",
+            "es": "Aplicaciones de vacunas por rango etario"
+        },
+		{
+			"xx": "241",
+            "en": "Confirmed cases pareto chart by province",
+            "es": "Gráfico pareto de casos confirmados según provincia"
+        },
+        {
+			"xx": "242",
+            "en": "Deceased cases pareto chart by province",
+            "es": "Gráfico pareto de casos fallecidos según provincia"
+        },
+        {
+			"xx": "243",
+            "en": "Vaccines applied pareto chart by province",
+            "es": "Gráfico pareto de vacunas aplicadas según provincia"
+        },
+		{
+			"xx": "251",
+            "en": "Confirmed cases pareto chart by department",
+            "es": "Gráfico pareto de casos confirmados según departamento"
+        },
+        {
+			"xx": "252",
+            "en": "Deceased cases pareto chart by department",
+            "es": "Gráfico pareto de casos fallecidos según departamento"
+        },
+        {
+			"xx": "253",
+            "en": "Vaccines applied pareto chart by department",
+            "es": "Gráfico pareto de vacunas aplicadas según departamento"
+        },
+		{
+			"xx": "300",
+            "en": "Other charts",
+            "es": "Otros gráficos"
+        },
+		{
+			"xx": "301",
+            "en": "Other charts",
+            "es": "Otros gráficos"
+        },
+        {
+			"xx": "311",
+            "en": "Vaccinated/deceased ratio by province",
+            "es": "Relación vacunados/fallecidos por provincia"
+        },
+        {
+			"xx": "321",
+            "en": "Vaccinated/deceased ratio by department",
+            "es": "Relación vacunados/fallecidos por departamento"
+        },
+		{
+			"xx": "331",
+            "en": "Scatterplot",
+            "es": "Dispersión"
+        },
+		{
+			"xx": "332",
+            "en": "Histogram 2D",
+            "es": "Histograma 2D"
+        },
+        {
+			"xx": "333",
+            "en": "Density 2D",
+            "es": "Densidad 2D"
+        },
+        {
+			"xx": "334",
+            "en": "Heatmap",
+            "es": "M. de calor"
+        },
+        {
+			"xx": "341",
+            "en": "deceased by age and date",
+            "es": "fallecimientos segun edad y fecha"
+        },
+        {
+			"xx": "351",
+            "en": "applied vaccines by type and month",
+            "es": "vacunas aplicadas por tipo y mes"
+        },
+		{
+			"xx": "400",
+            "en": "Forecasting",
+            "es": "Previsión"
+        },
+		{
+			"xx": "401",
+            "en": "Forecasting",
+            "es": "Previsión"
+        },
+		{
+			"xx": "411",
+            "en": "COVID-19 time series",
+            "es": "Serie temporal del COVID-19"
+        },
+		{
+			"xx": "412",
+            "en": "Time series",
+            "es": "Serie temporal"
+        },
+		{
+			"xx": "413",
+            "en": "Evolution of confimed cases",
+            "es": "Evolución de los casos confirmados"
+        },
+		{
+			"xx": "414",
+            "en": "Evolution of deseased cases",
+            "es": "Evolución de los casos fallecidos"
+        },
+		{
+			"xx": "415",
+            "en": "Model tested with the last 30 days.",
+            "es": "Utilizando los últimos 30 días para evaluar el modelo."
+        },
+		{
+			"xx": "420",
+            "en": "APPSalud: Forecasting report",
+            "es": "APPSalud: Reporte de previsión"
+        },
+		{
+			"xx": "421",
+            "en": "Selected model:",
+            "es": "Modelo seleccionado:"
+        },
+		{
+			"xx": "422",
+            "en": "The model has been applied to the following variable:",
+            "es": "El modelo se aplicó para predecir la siguiente variable:"
+        },
+		{
+			"xx": "423",
+            "en": "The data partition is:",
+            "es": "La partición de datos es:"
+        },
+		{
+			"xx": "424",
+            "en": "Chart with the training(real), testing(test) and prediction(pred) data:",
+            "es": "Gráfico con los datos de entrenamiento(real), prueba(test) y predicción(pred):"
+        },
+		{
+			"xx": "425",
+            "en": "from",
+            "es": "desde"
+        },
+		{
+			"xx": "426",
+            "en": "to",
+            "es": "hasta"
+        },
+		{
+			"xx": "427",
+            "en": "Training",
+            "es": "Entrenamiento"
+        },
+		{
+			"xx": "428",
+            "en": "Testing",
+            "es": "Prueba"
+        },
+		{
+			"xx": "429",
+            "en": "Prediction",
+            "es": "Predicción"
+        },
+		{
+			"xx": "430",
+            "en": "rows",
+            "es": "filas"
+        },
+		{
+			"xx": "431",
+            "en": "Root Mean Squared Error (RMSE):",
+            "es": "Raíz de error cuadrático medio (RMSE):"
+        },
+		{
+			"xx": "432",
+            "en": "Forecasting table:",
+            "es": "Tabla de previsiones:"
+        },
+		{
+			"xx": "433",
+            "en": "Model parameters:",
+            "es": "Parámetros del modelo:"
+        },
+		{
+			"xx": "434",
+            "en": "Lambda value from Box-Cox transform:",
+            "es": "Valor lambda de la transformación Box-Cox:"
+        },
+		{
+			"xx": "491",
+            "en": "ERROR: Need to pick at least 90 days range",
+            "es": "ERROR: se necesita seleccionar un rango de al menos 90 dias"
+        },
+		{
+			"xx": "500",
+            "en": "Datasets",
+            "es": "Conj. de datos"
+        },
+		{
+			"xx": "501",
+            "en": "Datasets",
+            "es": "Conjuntos de datos"
+        },
+		{
+			"xx": "511",
+            "en": "Element:",
+            "es": "Elemento:"
+        },
+		{
+			"xx": "512",
+            "en": "Selected dataset:",
+            "es": "Conjunto de datos seleccionado:"
+        },
+		{
+			"xx": "513",
+            "en": "Download whole file",
+            "es": "Descargar archivo completo"
+        },
+		{
+			"xx": "521",
+            "en": "rows",
+            "es": "registros"
+        },
+		{
+			"xx": "522",
+            "en": "Show all",
+            "es": "Mostrar todo"
+        },
+		{
+			"xx": "523",
+            "en": "Search:",
+            "es": "Buscar:"
+        },
+		{
+			"xx": "524",
+            "en": "Anterior",
+            "es": "Previous"
+        },
+		{
+			"xx": "525",
+            "en": "Siguiente",
+            "es": "Next"
+        },
+        {
+			"xx": "600",
+            "en": "About",
+            "es": "Acerca de..."
+        },
+		{
+			"xx": "601",
+            "en": "About",
+            "es": "Acerca de..."
+        },
+		{
+			"xx": "611",
+            "en": "Version: ",
+            "es": "Versión: "
+        },
+		{
+			"xx": "612",
+            "en": "Test mode: ",
+            "es": "Modo de pruebas: "
+        },
+		{
+			"xx": "613",
+            "en": "Version date: ",
+            "es": "Fecha de la version: "
+        },
+		{
+			"xx": "614",
+            "en": "Data reload date: ",
+            "es": "Fecha de recarga de datos: "
+        },
+		{
+			"xx": "615",
+            "en": "resource",
+            "es": "recurso"
+        },
+		{
+			"xx": "616",
+            "en": "details",
+            "es": "detalles"
+        },
+		{
+			"xx": "617",
+            "en": "links",
+            "es": "enlaces"
+        },
+		{
+			"xx": "618",
+            "en": "license",
+            "es": "licencia"
+        },
+		{
+			"xx": "619",
+            "en": "version",
+            "es": "versión"
+        },
+		{
+			"xx": "620",
+            "en": "Application",
+            "es": "La aplicación"
+        },
+		{
+			"xx": "621",
+            "en": "Appsalud is a data viz proposal about COVID-19 born from a professional practice and later extended as a final degree work.",
+            "es": "AppSalud es un propuesta de visualización sobre el COVID-19 naciente de una práctica profesional y extendida para su presentación como trabajo final de grado."
+        },
+		{
+			"xx": "622",
+            "en": "This app allows to see the progress of COVID-19 dicease in Argentina. It provides certain visualizations about the status by province, vaccinations and registered cases.",
+            "es": "Esta app permite observar el avance de la enfermedad por coronavirus 2019 (COVID-19) en la Argentina. Proporciona diversas visualizaciones acerca del estado de situación por jurisdicción, según las vacunaciones hechas o los casos registrados."
+        },
+		{
+			"xx": "623",
+            "en": "WARNING: this app, its charts and forecasts are with academic purposes and they seek to provide a brief orientation on the advance of the virus. It is not intended for use in sensitive contexts where risk decisions are made.",
+            "es": "AVISO: Esta aplicación, sus gráficos y las previsiones propuestas son con fines académicos y buscan proveer una somera orientación sobre el avance del virus. No está pensado para su uso en contextos delicados donde se tomen decisiones de riesgo."
+        },
+		{
+			"xx": "624",
+            "en": "ETL Framework repository",
+            "es": "Repositorio del Framework ETL"
+        },
+		{
+			"xx": "625",
+            "en": "App repository",
+            "es": "Repositorio de la aplicación"
+        },
+		{
+			"xx": "626",
+            "en": "Forecasting tool repository",
+            "es": "Repositorio de la herramienta de previsión"
+        },
+		{
+			"xx": "630",
+            "en": "Data sources",
+            "es": "Las fuentes de datos"
+        },
+		{
+			"xx": "631",
+            "en": "The app uses several files provided by the next sources.",
+            "es": "El aplicativo utiliza distintos archivos provistos por las siguientes fuentes."
+        },
+		{
+			"xx": "640",
+            "en": "Components",
+            "es": "Los componentes"
+        },
+		        {
+			"xx": "641",
+            "en": "Below is a list of all the elements that have been used to create the application, ranging from executable software and libraries to components and other design resources.",
+            "es": "A continuación se listan todos los elementos que han sido utilizados para la elaboración del aplicativo, se incluye desde software ejecutable y bibliotecas hasta componentes y otros recursos de diseño."
+        },
+		{
+			"xx": "650",
+            "en": "Developer",
+            "es": "El desarrollador"
+        }
+    ]
+}
