@@ -2,7 +2,7 @@
 
 Aplicación web de tipo *dashboard* que hace uso de la visualización de datos y el modelado de series temporales para monitorear el comportamiento de la COVID-19 en la República Argentina.
 
-![alt text](https://github.com/FernandoJesus21/AppSalud/blob/main/appSalud_01.png?raw=true)
+![alt text](https://github.com/FernandoJesus21/AppSalud/blob/master/appSalud_01.png?raw=true)
 
 # Puntos clave
 
@@ -36,7 +36,7 @@ Pueden ocurrir problemas con la instalación y compilación de la biblioteca 'te
 
 # Diagrama de arquitectura
 
-![alt text](https://github.com/FernandoJesus21/AppSalud/blob/main/diagrama_de_aplicacion_v11.png?raw=true)
+![alt text](https://github.com/FernandoJesus21/AppSalud/blob/master/diagrama_de_aplicacion_v11.png?raw=true)
 
 # Créditos
 
