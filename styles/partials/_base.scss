@@ -1,0 +1,262 @@
+
+.bootstrap-select > .dropdown-toggle {
+	width: 100%;
+	border-color: $pal01;
+	border-radius: 25px;
+	padding: 4px 10px 4px 20px;
+}
+
+.bootstrap-select .dropdown-toggle .caret {
+	position: absolute;
+	top: 50%;
+	right: 13px;
+	margin-top: -2px;
+}
+
+:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+    width: 70%;
+	background-color: #e6e6e6;
+	border-radius: 25px;
+	margin: 15px 0px 0px 21px;
+}
+
+
+.dropdown-menu.open{
+	left: 0px;
+	background-color: #fff;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: $pal01;
+	outline: 0;
+}
+
+#lang{
+	float: right;
+}
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+    width: 150px;
+    max-width: 100%;
+}
+
+#selected_language {
+    border-radius: 25px;
+    width: 85%;
+    border: 1px solid #355070;
+    margin: 1px;
+}
+
+.modal-dialog { 
+	width: fit-content !important;
+}
+
+body {
+  @include flex-center;
+  background-color: $ashLight;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  padding-top: rem(70px);
+
+  @include mediaFrom($breakSm) {
+    padding: rem(90px) rem(30px) rem(50px);
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline: none;
+}
+
+.dashboard {
+  background-color: $white;
+  max-width: $maxContentWidth;
+  padding: rem(15px);
+  width: 100%;
+
+  @include mediaFrom($breakSm) {
+    border-radius: $filletLarge;
+    padding: rem(10px) rem(25px) rem(25px) rem(25px);
+  }
+  border: 1.5px solid $pal01;
+}
+
+//botones de las secciones
+.nav-tabs>li {
+    float: center;
+	margin-bottom: 10px;
+}
+
+//eliminar la linea en el fondo del contenedor de los botones de las secciones
+.nav-tabs {
+  border-bottom: 0px;
+}		
+
+
+/*Botones de las secciones del dash*/
+
+
+/*Boton seleccionado*/
+.tabbable > .nav > li[class=active] > a{
+  margin-right: 6px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  //display: inline-block;
+  display:flex;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: $pal01;
+  background: $pal01;
+  color: #fff;
+  border-radius: 8em;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  
+  
+  &:focus {
+    outline: 0;
+  }
+  
+  &:before, &:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  
+ 
+  &:active{
+    transform: scale(0.9);
+    background-color: darken($button-bg, 5%);
+  }
+  
+
+}
+
+/*Botones NO activos*/
+
+.tabbable > .nav > li > a{
+  margin-right: 6px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  //display: inline-block;
+  display:flex;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  -webkit-appearance: none;
+  appearance: none;
+  /*background-color: $gris02;*/
+  color: $pal01;
+  border-radius: 8em;
+  border: 1px solid $pal01;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  
+  &:focus {
+    outline: 0;
+  }
+  
+  &:before, &:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  
+ 
+  &:active{
+    transform: scale(0.9);
+  }
+  
+}
+
+
+
+
+//menu dropdown de opcion cambiar tipo de grafico
+.btn.btn-circle {
+	height: 20px;
+	width: 22px;
+	text-align:center;
+	line-height: 0;
+}
+  
+
+//posicion del menu del dropdown para el dropdownbutton de seleccion de graficos
+
+
+.dropdown-menu {
+
+    position: absolute;
+	top: 100%;
+	left: -93px;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 90px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 10px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	border-radius: $filletLarge;
+	border: 1.5px solid $pal01;
+
+}
+
+.dropdown, .dropup {
+	position: relative;
+	/* width: 100%; */
+	display: inline-block;
+	/* text-align: right; */
+}
+
+.form-group {
+	margin-bottom: 0px;
+}
+
+
+.btn-group.btn-group-toggle{
+	border: 1px solid $pal01;
+	border-radius: 4px;
+	margin: 2px;
+}
+
+//botones dentro del dropdown
+.btn.radiobtn.btn-default.active {
+	background-color: $pal01;
+	color: white;
+}
+
+

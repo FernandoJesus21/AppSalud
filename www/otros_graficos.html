@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html>
+  <head>
+	<title>AppSalud COVID-19 dashboard</title>
+	<meta name="description" content="Old Faithful Geyser Data" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	{{ headContent() }}
+	<link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="main-header">
+      <span class="main-title" class="main-heading">Otros gr&aacuteficos</span>
+    </h1>
+	<main class="dashboard">
+		<header class="dashboard-header">
+			<h2 class="dashboard-heading">
+			{{ dashboardLogo }}
+			<span class="dashboard-title">{{ appTitle }}</span>
+			</h2>
+			<div class="dashboard-filters-tbl">
+				{{ selectPcia }}
+			</div>
+		</header>
+		<section class="dashboard-panel-tendencias">
+			<div class="panel panel-chart2 disp">{{ dispersion }}</div>
+			<div class="panel panel-chart2 bxplot">{{ mcalor }}</div>
+			<div class="panel panel-chart2 ganimado">{{ ganimado }}</div>
+		</section>
+	</main>
+	<footer class="footer">
+      <h3 class="footer-heading">
+        <span> {{ texto_footer }} </span>
+      </h3>
+    </footer>
+  </body>
+</html>

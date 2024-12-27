@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html>
+  <head>
+	<title>AppSalud COVID-19 dashboard</title>
+	<meta name="description" content="Air Passengers Data" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	{{ headContent() }}
+	<link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="main-header">
+      <span class="main-title" class="main-heading">Acerca de...</span>
+    </h1>
+	<main class="dashboard">
+		<header class="dashboard-header">
+			<h2 class="dashboard-heading">
+				{{ dashboardLogo }}
+			<span class="dashboard-title">{{ appTitle }}</span>
+			<h2 class="info-icon">
+				{{ infoIcon }}
+			</h2>
+			</h2>
+		</header>
+		<section class="dashboard-panel-info">
+			<div class="panel panel-chart2 colorTile bg01">{{ colorTile }}</div>
+			<div class="panel panel-chart2 mainTile">{{ mainTile }}</div>
+		</section>
+	</main>
+	<footer class="footer">
+      <h3 class="footer-heading">
+        <span> {{ texto_footer }} </span>
+      </h3>
+    </footer>
+  </body>
+</html>
