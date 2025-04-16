@@ -1,0 +1,245 @@
+
+////////////////////////////////////////////////	
+/*Elementos de la seccion RESUMEN*/	
+////////////////////////////////////////////////
+
+.resumen1 { 
+	grid-area: 1 / 1 / 2 / 2; 
+	border: 1.5px solid $pal04;
+	color: $pal04;
+}
+.resumen2 { 
+	grid-area: 1 / 2 / 2 / 3; 
+	border: 1.5px solid $pal03;
+	color: $pal03;
+}
+.resumen3 { 
+	grid-area: 1 / 3 / 2 / 4; 
+	border: 1.5px solid $pal01;
+	color: $pal01;
+}
+.resumen4 { 
+	grid-area: 1 / 4 / 2 / 5; 
+	border: 1.5px solid $pal01;
+	color: $pal01;
+}
+
+
+.pie_chart { 
+	grid-area: 2 / 1 / 5 / 3; 
+	.chart-breakdown-container {
+		padding: rem(30px) rem(10px) rem(10px);
+	}
+}
+	
+	
+.resumen6 { grid-area: 2 / 3 / 4 / 5; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(1px) rem(10px);
+	}}
+.resumen7 { grid-area: 4 / 3 / 5 / 5; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(0px) rem(10px);
+	}}
+
+////////////////////////////////////////////////
+/*Seccion MAPAS*/	
+////////////////////////////////////////////////
+
+.mapa {
+	grid-area: 1 / 1 / 6 / 3;
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}  
+} 
+
+.rangoEtario {
+	grid-area: 1 / 3 / 3 / 6;
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}  
+} 
+
+.pareto { 
+	grid-area: 3 / 3 / 6 / 6; 
+	.chart-breakdown-container {
+		padding: rem(30px) rem(10px) rem(10px);
+		margin-bottom: -25px;
+		font-size: 12px;
+	} 
+} 
+
+	
+////////////////////////////////////////////////
+/*Elementos de la seccion OTROS GRAFICOS*/
+////////////////////////////////////////////////
+
+.disp { 
+	grid-area: 1 / 3 / 3 / 6; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}
+}
+.ganimado { 
+	grid-area: 1 / 1 / 5 / 3; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}
+}
+
+.bxplot { 
+	grid-area: 3 / 3 / 5 / 6; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}
+}
+
+////////////////////////////////////////////////
+/*Elementos de la seccion FORECASTING*/
+////////////////////////////////////////////////
+
+
+.fgraph { 
+	grid-area:  1 / 1 / 2 / 2; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}
+}
+
+
+
+////////////////////////////////////////////////
+/*Elementos de la seccion S4: DATASETS*/
+////////////////////////////////////////////////
+
+.tbl-dataset { 
+	grid-area: 1 / 1 / 2 / 2; 
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}
+} 
+
+
+////////////////////////////////////////////////
+/*Elementos de la seccion ACERCA DE...*/
+////////////////////////////////////////////////
+
+.pal-info{
+	height: 43px;
+	width: 60%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 60px;
+	background: linear-gradient(90deg,
+		rgba(53,80,112,1) 0%, rgba(53,80,112,1) 16.66%,
+		rgba(109,89,122,1) 16.66%, rgba(109,89,122,1) 33.33%,
+		rgba(181,101,118,1) 33.33%, rgba(181,101,118,1) 50%,
+		rgba(229,107,111,1) 50%, rgba(229,107,111,1) 66.66%,
+		rgba(232,140,125,1) 66.66%, rgba(232,140,125,1) 83.33%,
+		rgba(234,172,139,1) 83.33%, rgba(234,172,139,1) 100%
+	);
+	border: 5px solid white;
+}
+
+.tabset-general{
+	font-size: 14px;
+	margin: 20px;
+}
+
+.tabset-info{
+	position: relative;
+	font-size: 12px;
+	margin: 10px;
+	z-index: 2;
+
+}
+
+.shapes{
+    position: absolute;
+    top: 340px;
+    right: -10px;
+    z-index: -10;
+}
+
+.logo-desc{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 1.8;
+}
+
+.logo-info{
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  text-align: center;
+}
+
+p{
+  line-height: 1.8;
+}
+
+.info-project-text{
+  text-align: left;
+  font-size: 14px;
+  //border: 1px solid #eee;
+  padding: 15px;
+}
+
+.info-resource-text {
+  text-align: left;
+  font-size: 12px;
+  border: 1px solid #eee;
+  padding: 10px;
+  line-height: 1.8;
+}
+
+#tbl_info-SS_par_1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0f75bc;
+}
+
+.info-auth-title {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.colorTile { 
+	 grid-area: 1 / 1 / 3 / 2;
+	.chart-breakdown-container {
+		padding: rem(40px) rem(10px) rem(10px);
+	}
+	height: 548px;
+	border: none;
+}
+
+.mainTile { 
+	grid-area: 1 / 2 / 3 / 4;
+	.chart-breakdown-container {
+		padding: rem(10px) rem(10px) rem(10px);
+	}
+	height: 548px;
+	border: none;
+} 
+
+
+//Estilos generales que sirven para elementos de varias secciones
+
+.dygraph-title {
+  color: #525252;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: -10px;
+}
+.dygraph-axis-label {
+  font-size: 12px;
+}
+
+

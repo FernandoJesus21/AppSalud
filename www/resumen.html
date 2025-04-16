@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html>
+  <head>
+	<title>AppSalud COVID-19 dashboard</title>
+	<meta name="description" content="Tablero COVID-19" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	{{ headContent() }}
+	<link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="main-header">
+      <span class="main-title" class="main-heading">Resumen</span>
+    </h1>
+	<main class="dashboard">
+		<header class="dashboard-header">
+			
+			<h2 class="dashboard-heading">
+				{{ dashboardLogo }}
+			<span class="dashboard-title">{{ appTitle }}</span>
+			
+			</h2>
+			<div class="dashboard-filters-t">
+				{{ selectYear }} {{ selectMonth }} {{ selectPcia }}
+			</div>
+		</header>
+		<section class="dashboard-panel-resumen">
+			<div class="panel-kpi resumen1">{{ kpi_1 }}</div>
+			<div class="panel-kpi resumen2">{{ kpi_2 }}</div>
+			<div class="panel-kpi resumen3">{{ kpi_3 }}</div>
+			<div class="panel-kpi resumen4">{{ kpi_4 }}</div>
+			<div class="panel panel-chart2 pie_chart">{{ pie_chart }}</div>
+			<div class="panel panel-chart2 resumen6">{{ stc }}</div>
+			<div class="panel panel-chart2 resumen7">{{ stf }}</div>
+		</section>
+	</main>
+	<footer class="footer">
+      <h3 class="footer-heading">
+        <span>{{ texto_footer }}</span>
+      </h3>
+    </footer>
+  </body>
+</html>

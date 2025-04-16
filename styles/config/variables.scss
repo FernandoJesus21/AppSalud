@@ -1,0 +1,69 @@
+
+//escala de grises y color especial de la seccion forecast
+$gris01: #dcdcde;
+$gris02: #ededed;
+$gris04: #fafafa;
+$button-bg: #5596e6;
+//$forecastColor01: #e6557e;
+//$forecastColor01: #54ade3;
+
+//colores de la paleta principal (usada en las medidas)
+$pal01: #355070;
+$pal02: #6D597A;
+$pal03: #B56576;
+$pal04: #E56B6F;
+$pal05: #E88C7D;
+$pal06: #EAAC8B;
+
+
+
+// breakpoints
+$breakXs: 380px;
+$breakSm: 576px;
+$breakMd: 768px;
+$breakLg: 1080px;
+$breakXl: 1200px;
+
+// grid
+$maxContentWidth: rem(1600px);
+$infoBoxHeight: rem(100px);
+$gutter: rem(24px);
+
+// fonts
+$fontPrimary: "Roboto", sans-serif;
+
+// colors
+$grayDark: #525252;
+$grayLight: #8A8E91;
+$ash: #B3B8BA;
+$ashLight: #e3e7e9;
+$white: #fff;
+
+//color de texto
+$colorFont: $pal01;
+
+// box shadow
+$boxShadowMain: -5px -5px 9px rgba(255,255,255,0.45), 1px 5px 20px rgba(94,104,121,0.3);
+
+// rounded corners
+$filletSmall: 9px;
+$filletLarge: 15px;
+
+// spacings
+$spacingSm: rem(8px);
+$spacingMd: rem(20px);
+$spacingLg: rem(32px);
+
+// icons
+$dropdownIconSizeSmall: 10px;
+$dropdownIconSizeLarge: 15px;
+$dashboardLogoWidth: 111px;
+$mainLogoWidth: 180px;
+$infographicIconSize: 30px;
+
+// transitions
+$dropdownIconTransition: 0.2s;
+$dropdownTransition: 0.2s;
+$hoverTransition: 0.2s;
+
+

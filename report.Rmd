@@ -1,0 +1,89 @@
+
+---
+output: html_document
+params:
+  ts: NA
+  plotDF: NA
+  modelo: NA
+  bc_lambda: NA
+  selRMSE: NA
+  nombre_modelo: NA
+  medida: NA
+  lang: NA
+---
+
+```{r eval = FALSE, echo = FALSE}
+# For PDF output, change the header to have "output: pdf_document".
+#
+# Note that due to an issue in rmarkdown, the default value of a parameter in
+# the header cannot be `NULL`, so I used a default of `NA` for the default value
+# of `n`.
+```
+
+
+```{r, echo=FALSE}
+library(shiny)
+library(shiny.i18n)
+library(dplyr)
+library(dygraphs)
+library(DT)
+library(forecast)
+```
+
+```{r, echo=FALSE, out.width="100%"}
+h3("Modelo")
+cat(params$lang$t("421"), params$nombre_modelo)
+
+if(params$nombre_modelo %in% c("ARIMA", "ETS")){
+  
+  print(params$modelo) 
+  
+  checkresiduals(params$modelo)
+}
+```
+
+```{r, echo=FALSE}
+cat(params$lang$t("422"), params$lang$t(params$medida))
+```
+
+```{r, echo=FALSE}
+cat(params$lang$t("423"), "\n")
+trainDF <- filter(params$plotDF, !is.na(params$plotDF$real))
+testDF <- filter(params$plotDF, !is.na(params$plotDF$test))
+predDF <- filter(params$plotDF, !is.na(params$plotDF$pred))
+
+cat("\t\t", params$lang$t("427"), ": ", params$lang$t("425"), format(trainDF$date[1], "%Y-%m-%d"), params$lang$t("426"), format(trainDF$date[nrow(trainDF)], "%Y-%m-%d"), " (", nrow(trainDF), params$lang$t("430"), ")")
+
+cat("\t\t", params$lang$t("428"), ": ", params$lang$t("425"), format(testDF$date[1], "%Y-%m-%d"), params$lang$t("426"), format(testDF$date[nrow(testDF)], "%Y-%m-%d"), " (", nrow(testDF), params$lang$t("430"), ")")
+
+cat("\t\t", params$lang$t("429"), ": ", params$lang$t("425"), format(predDF$date[1], "%Y-%m-%d"), params$lang$t("426"), format(predDF$date[nrow(predDF)], "%Y-%m-%d"), " (", nrow(predDF), params$lang$t("430"), ")")
+                                                                                                               
+```
+
+
+```{r, echo=FALSE}
+cat(params$lang$t("431"), params$selRMSE)
+```
+
+
+```{r, echo=FALSE, out.width="100%"}
+cat(params$lang$t("424"))
+dygraph(params$plotDF) %>%
+        dyRangeSelector() 
+```
+
+```{r, echo=FALSE, include=TRUE}
+cat(params$lang$t("432"))
+```
+
+<div style = "width:40%; height:auto; margin: auto;">
+```{r, echo=FALSE, include=TRUE}
+table <- select(predDF, date, pred) %>%
+  mutate(pred = round(pred, 0))
+datatable(table, options = list(pageLength = 10, dom = 'tip'), rownames = FALSE)
+```
+</div>
+
+---
+title: "`r params$lang$t("420")`"
+---
