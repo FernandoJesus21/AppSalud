@@ -34,6 +34,10 @@ Una vez clonado el repositorio, ejecutar renv::restore() o renv::install() para 
 
 Pueden ocurrir problemas con la instalación y compilación de la biblioteca 'terra'. Si esto ocurre intentar instalar la biblioteca manualmente.
 
+# Documentación
+
+Se ofrece documentación extensiva acerca de cómo el aplicativo fue concebido [aquí](https://drive.google.com/file/d/1wvJOtfUD6Xm4rxn5m1wq0A7iVqaGKcku/view).
+
 # Créditos
 
 A [Appsilon](https://www.appsilon.com/) por el desarrollo de la plantilla '*shiny enterprise dashboard*' utilizada como base para este proyecto.
